@@ -20,28 +20,28 @@ It requires some environment variables to run:
 
 ## COMMAND SYNTAX
 
-	usage: weeeini.py [-h] -n NAME [NAME ...] -s SURNAME [SURNAME ...] [-S SERIAL]
-					  -t TELEGRAMID [-N NICKNAMES [NICKNAMES ...]] [-l LEVEL] [-V]
-					  [-v]
+    usage: weeeini.py [-h] -n NAME [NAME ...] -s SURNAME [SURNAME ...] [-S SERIAL]
+                      -t TELEGRAMID [-N NICKNAMES [NICKNAMES ...]] [-l LEVEL] [-V]
+                      [-v]
 
-	required arguments:
-	  -n NAME [NAME ...], --name NAME [NAME ...]
-							store the name of the user
-	  -s SURNAME [SURNAME ...], --surname SURNAME [SURNAME ...]
-							store the surname of the user
-	  -t TELEGRAMID, --telegramID TELEGRAMID
-							store the telegramID of the user
+    required arguments:
+      -n NAME [NAME ...], --name NAME [NAME ...]
+                            store the name of the user
+      -s SURNAME [SURNAME ...], --surname SURNAME [SURNAME ...]
+                            store the surname of the user
+      -t TELEGRAMID, --telegramID TELEGRAMID
+                            store the telegramID of the user
 
-	optional arguments:
-	  -h, --help            show this help message and exit
-	  -S SERIAL, --serialID SERIAL
-							store the serial ID of the user (by default 000000)
-	  -N NICKNAMES [NICKNAMES ...], --nicknames NICKNAMES [NICKNAMES ...]
-							store the nicknames of the user
-	  -l LEVEL, --level LEVEL
-							store the level of the user (type int, default=3)
-	  -V, --version         show program's version number and exit
-	  -v, --verbose         increase output verbosity, debug mode
+    optional arguments:
+      -h, --help            show this help message and exit
+      -S SERIAL, --serialID SERIAL
+                            store the serial ID of the user (by default 000000)
+      -N NICKNAMES [NICKNAMES ...], --nicknames NICKNAMES [NICKNAMES ...]
+                            store the nicknames of the user
+      -l LEVEL, --level LEVEL
+                            store the level of the user (type int, default=3)
+      -V, --version         show program's version number and exit
+      -v, --verbose         increase output verbosity, debug mode
 
 ## NOTES
 
