@@ -1,0 +1,9 @@
+certifi==2018.10.15
+chardet==3.0.4
+idna==2.7
+pip==18.1
+pyocclient==0.4
+requests==2.20.1
+setuptools==40.6.2
+six==1.11.0
+urllib3==1.24.1
