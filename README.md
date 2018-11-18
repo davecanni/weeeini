@@ -4,6 +4,20 @@
 
 Python script to add user to json file on owncloud.
 
+## INSTALL
+
+Open a terminal and type these following commands:
+
+    git clone https://github.com/davecanni/weeeini
+    cd weeeini
+    sudo pip install -r requirements.txt
+
+It requires some environment variables to run:
+* `OC_URL`: Url of the owncloud server
+* `OC_USER`: OwnCloud username
+* `OC_PWD`: OwnCloud password
+* `USER_PATH`: Path of the file with authorized users in OwnCloud (/folder/file.json)
+
 ## COMMAND SYNTAX
 
 	usage: weeeini.py [-h] -n NAME [NAME ...] -s SURNAME [SURNAME ...] [-S SERIAL]
